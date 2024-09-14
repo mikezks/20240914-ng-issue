@@ -8,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
   template: `
     @let vm = state();
     @if (vm.length) {
-      <p>Number of items: {{ vm.length }}
+      <p>Number of items: {{ state().length }}
     } @else {
       <p>No items found.</p>
     }
